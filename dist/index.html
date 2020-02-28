@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="/css.967bad95.css">
+    <title>Product List</title>
+<script src="/css.967bad95.js"></script></head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Product List</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a href="#" class="nav-link"><strong id="price-total">Total $0</strong></a>
+            </li>
+        </ul>
+    </div>
+   </nav>
+
+
+   <div class="container">
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card text-white bg-primary mb-3">
+                <div class="card-header" id="text-center">Crear Producto</div>
+                <div class="card-body">
+                    <form id="product-form">
+                        <div class="form-group">
+                            <input type="text" id="product-name" placeholder="Nombre del producto" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="number" id="product-price" placeholder="Precio del producto" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="product-description" cols="30" rows="10" placeholder="Descripción del producto" class="form-control"></textarea>
+                        </div>
+
+                        <button class="btn btn-secondary btn-block">Crear Producto</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+            <div id="product-ui"></div>
+        </div>
+    </div>
+   </div>
+
+
+
+
+    <script src="/js.00a46daa.js"></script>
+</body>
+</html>
